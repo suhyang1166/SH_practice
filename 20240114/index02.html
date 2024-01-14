@@ -6,22 +6,26 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>귤귤귤 주문하기</h1>
+    <h1>레드향 주문하기</h1>
     <form>
       <fieldset>
         <legend>배송 정보</legend>
-        <ui id="shopping">
+        <ul id="shipping">
           <li>
             <label for="prod">주문 상품</label>
             <input type="text" id="prod" value="상품용 3KG" readonly />
           </li>
           <li>
-            <label for="name">이름</label>
-            <input type="text" id="name" required autofocus />
+            <label for="user-name">이름 </label>
+            <input type="text" id="user-name" required autofocus />
           </li>
           <li>
             <label for="addr">배송 주소</label>
             <input type="text" id="addr" required />
+          </li>
+          <li>
+            <label for="mail">이메일</label>
+            <input type="email" id="mail" />
           </li>
           <li>
             <label for="phone">연락처</label>
@@ -32,17 +36,12 @@
               required
             />
           </li>
-
-          <li>
-            <label for="mail">이메일</label>
-            <input type="email" id="mail" />
-          </li>
           <li>
             <label for="d-day">배송 지정</label>
             <input type="date" id="d-day" />
             <small>(주문일로부터 최소 3일 이후)</small>
           </li>
-        </ui>
+        </ul>
       </fieldset>
       <div>
         <input type="submit" value="주문하기" />
