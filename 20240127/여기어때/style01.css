@@ -1,2 +1,79 @@
 @import url(./reset.css);
 @import url(./font.css);
+
+/* common */
+body {
+  font-family: Travel;
+}
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+/* header */
+#header {
+  width: 1240px;
+  height: 74px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+#header > div {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+.main-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.main-icons > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background: #d6d6d6;
+  padding: 5px;
+  border-radius: 12px;
+}
+.main-icons > div > span {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* section */
+#section {
+  width: 100%;
+  background: url(./img/1.main/main_04.jpg) center/cover no-repeat;
+}
+#slide {
+  border: 1px solid #f00;
+  width: 1240px;
+  height: 529px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#slide h1 {
+  margin-bottom: 24px;
+  color: #fff;
+}
+.main-box {
+  width: 100%;
+  height: 145px;
+  padding: 20px;
+  background: #fff;
+  color: #707070;
+  border-radius: 20px;
+}
+.main-title {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
