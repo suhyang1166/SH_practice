@@ -1,0 +1,13 @@
+@import url(./reset.css);
+a {
+  color: inherit;
+}
+
+/* common */
+#wrap {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
