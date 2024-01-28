@@ -41,27 +41,42 @@
       </header>
       <section id="section">
         <form id="slide" action="https://localhost:3000" method="post">
-          <h1>국내부터 해외까지<br />여행할떄 여기어때</h1>
+          <h1>국내부터 해외까지<br />여행할때 여기어때</h1>
           <div class="main-box">
             <div class="main-title">
-              <h3>국내숙소</h3>
-              <h3>해외숙소</h3>
+              <h3>국내 숙소</h3>
+              <h3>해외 숙소</h3>
             </div>
-            <div>
-              <input
-                type="search"
-                class="main-search"
-                placeholder="여행지나 숙소를 검색해보세요"
-              />
-              <input type="month" class="main-month" />
-              <select class="main-person" name="person" id="person">
-                <option value="#">인원 2</option>
-                <option value="#">인원 3</option>
-                <option value="#">인원 4</option>
-                <option value="#">인원 5</option>
-                <option value="#">인원 6</option>
-              </select>
-              <input type="submit" class="main-btn" value="검색" />
+            <div class="main-schedule">
+              <form action="#">
+                <div id="main-searchs">
+                  <span><i class="fa-solid fa-magnifying-glass"></i> </span>
+                  <input
+                    type="search"
+                    class="main-search"
+                    id="search"
+                    placeholder="여행지나 숙소를 검색해보세요"
+                  />
+                </div>
+                <div>
+                  <span></span>
+                  <input
+                    type="date"
+                    class="main-month"
+                    placeholder="01.28 일 - 01.29 월"
+                  />
+                </div>
+                <div>
+                  <select class="main-person" name="person" id="person">
+                    <option value="#">인원 2</option>
+                    <option value="#">인원 3</option>
+                    <option value="#">인원 4</option>
+                    <option value="#">인원 5</option>
+                    <option value="#">인원 6</option>
+                  </select>
+                </div>
+                <input type="submit" class="main-btn" value="검색" />
+              </form>
             </div>
           </div>
         </form>
